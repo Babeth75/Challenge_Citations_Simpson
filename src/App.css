@@ -30,3 +30,26 @@
     transform: rotate(360deg);
   }
 }
+
+.generateCharacter{
+  text-align: center;
+  font-weight: bold;
+  margin-top: 15px;
+}
+.generateCharacter button{
+  color: yellow;
+    height: auto;
+    width: auto;
+    padding: 15px;
+    border: 2px solid blue;
+    background: black;
+    cursor: pointer;
+    border-radius: 5px;
+    line-height: 0px;
+    font-weight: bold;
+    font-size: 25px;
+}
+.generateCharacter button:hover{
+  background: grey;
+  border: none;
+}
